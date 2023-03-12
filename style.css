@@ -1,0 +1,315 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-image: url(bg.jpg);
+    /* background-repeat: no-repeat; */
+    background-position: center;
+    background-size: cover;
+}
+
+.main_box {
+    /* background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+    text-align: center;
+    height: auto;
+}
+
+
+.main {
+
+    display: flex;
+    text-align: center;
+    height: 90vh;
+
+
+
+
+}
+
+input[type="radio"] {
+    display: inline-flex;
+}
+
+#left11 {
+    padding: 10px;
+    border-radius: 5px;
+    /* border: 1px solid ; */
+    width: 30%;
+
+
+}
+
+#right1 {
+    padding: 20px 30px 30px;
+    background-color: transparent;
+    text-align: center;
+    /* border: 1px solid ; */
+    width: 70%;
+
+}
+
+
+.head {
+    background-image: linear-gradient(300deg, rgb(30, 255, 0), rgb(66, 10, 250), rgb(17, 17, 17), red);
+    color: transparent;
+    -webkit-background-clip: text;
+    color: rgb(10, 237, 6);
+    margin-bottom: 1px;
+    font-size: 40px;
+    margin-top: 150px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+select {
+    width: 300px;
+    padding: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: rgba(112, 214, 136, 0.598);
+    border: none;
+    outline: none;
+    color: rgb(3, 3, 3);
+    text-transform: capitalize;
+    font-size: 20px;
+    border-radius: 10px;
+    padding-left: 50px;
+    margin-left: 20px;
+}
+
+button {
+    padding: 4px 20px;
+    font-size: 20px;
+    height: 35px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    /* background-color: rgb(255, 98, 0); */
+    background-image: linear-gradient(300deg, rgb(30, 255, 0), rgb(229, 226, 239));
+    transition: all 0.5s;
+    color: rgb(255, 0, 187);
+
+
+}
+
+button:hover {
+    color: red;
+    background-color: white;
+}
+
+
+.smbox {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid red;
+    border-radius: 10px;
+}
+
+p {
+    color: rgb(6, 245, 26);
+    text-transform: capitalize;
+    font-size: 25px;
+}
+
+span {
+    font-size: 25px;
+    /* margin-right: 5px; */
+
+}
+
+input[type="radio"] {
+    accent-color: red;
+
+}
+
+input {
+    height: 30px;
+}
+
+input::placeholder {
+    text-transform: capitalize;
+    color: black;
+    padding-left: 10px;
+}
+
+input {
+    font-size: 20px;
+    caret-color: red;
+}
+
+h6 {
+    font-size: 16px;
+    color: rgb(4, 235, 35);
+    font-weight: normal;
+    display: none;
+    margin-top: 5px;
+
+}
+
+#new {
+    padding: 20px;
+    width: 100%;
+    height: auto;
+    display: none;
+    padding: 0px 300px;
+
+}
+
+
+#data {
+    padding: 20px;
+    width: 100%;
+    padding: 0 400px;
+    position: relative;
+    display: none;
+    margin-top: 30px;
+    border-radius: 50px;
+
+}
+
+span {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+#head1,
+#head2 {
+    color: white;
+    text-transform: capitalize;
+}
+
+@media screen and (min-width:320px) and (max-width:480px) {
+
+    .main_box {
+        width: auto;
+        height: auto;
+    }
+
+
+    .main {
+        flex-direction: column;
+        height: auto;
+        width: auto;
+
+
+
+
+    }
+
+    #left11 {
+        width: auto;
+        height: auto;
+
+
+    }
+
+    #right1 {
+        width: auto;
+        height: auto;
+        padding: 5px;
+
+    }
+
+
+
+
+    select {
+        width: 150px;
+        padding: 5px;
+    }
+
+    #right1 .smbox {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .smbox input {
+        width: 150px;
+        margin-bottom: 5px;
+    }
+
+    .left_div {
+        flex-direction: column !important;
+        display: flex;
+        width: 300px !important;
+        margin-bottom: 5px;
+    }
+
+
+    .smbox button {
+        width: 80px;
+        margin-bottom: 5px;
+    }
+
+    input {
+        height: 30px;
+    }
+
+    select {
+        margin-bottom: 5px;
+    }
+
+    #checkspan {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* display: flex; */
+        width: auto;
+        text-align: center;
+        overflow: hidden;
+        /* border: 1px solid ; */
+    }
+
+    .head{
+        margin-top: 50px;
+    }
+
+    #checkspan span {
+        font-size: 16px;
+    }
+
+    #checkspan input {
+        width: 15px;
+    }
+
+    #new {
+        padding: 5px;
+        width: auto;
+    }
+
+    #new .smbox {
+        width: auto;
+    }
+
+    #data {
+        padding: 0;
+    }
+
+    #data .smbox {
+        display: flex !important;
+        text-align: justify;
+        flex-wrap: nowrap;
+    }
+    #new .smbox {
+        display: flex !important;
+        text-align: justify;
+        flex-wrap: nowrap;
+    }
+
+
+}
