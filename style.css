@@ -1,315 +1,283 @@
 * {
-    margin: 0;
-    padding: 0;
-
+  margin: 0;
+  padding: 0;
 }
-body{
-    background-image: url(bg.jpg);
-    /* background-repeat: no-repeat; */
-    background-position: center;
-    background-size: cover;
+body {
+  background-image: linear-gradient(
+      rgba(128, 128, 128, 0.523),
+      rgba(128, 128, 128, 0.534)
+    ),
+    url(./bg.avif);
+  /* background-repeat: no-repeat; */
+  background-position: center;
+  background-size: cover;
 }
 
 .main_box {
-    /* background-image: url(bg.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover; */
-    text-align: center;
-    height: auto;
+  text-align: center;
+  height: auto;
 }
 
-
 .main {
-
-    display: flex;
-    text-align: center;
-    height: 90vh;
-
-
-
-
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  height: 90vh;
 }
 
 input[type="radio"] {
-    display: inline-flex;
+  display: inline-flex;
 }
 
 #left11 {
-    padding: 10px;
-    border-radius: 5px;
-    /* border: 1px solid ; */
-    width: 30%;
-
-
+  padding: 10px;
+  border-radius: 5px;
+  width: 30%;
 }
 
 #right1 {
-    padding: 20px 30px 30px;
-    background-color: transparent;
-    text-align: center;
-    /* border: 1px solid ; */
-    width: 70%;
-
+  padding: 20px 30px 30px;
+  background-color: transparent;
+  text-align: center;
+  width: 70%;
 }
 
-
 .head {
-    background-image: linear-gradient(300deg, rgb(30, 255, 0), rgb(66, 10, 250), rgb(17, 17, 17), red);
-    color: transparent;
-    -webkit-background-clip: text;
-    color: rgb(10, 237, 6);
-    margin-bottom: 1px;
-    font-size: 40px;
-    margin-top: 150px;
-    margin-bottom: 10px;
-    text-align: center;
+  color: white;
+  margin-bottom: 1px;
+  font-size: 40px;
+  margin-top: 150px;
+  margin-bottom: 10px;
+  text-align: center;
 }
 
 select {
-    width: 300px;
-    padding: 5px;
-    margin-left: 5px;
-    margin-right: 5px;
-    background-color: rgba(112, 214, 136, 0.598);
-    border: none;
-    outline: none;
-    color: rgb(3, 3, 3);
-    text-transform: capitalize;
-    font-size: 20px;
-    border-radius: 10px;
-    padding-left: 50px;
-    margin-left: 20px;
+  width: 100%;
+  padding: 5px;
+  border: none;
+  outline: none;
+  color: rgb(3, 3, 3);
+  text-transform: capitalize;
+  font-size: 20px;
+  border-radius: 10px;
+  text-align: center;
 }
 
+.add{
+    width: 100%;
+    margin-top: 10px;
+}
 button {
-    padding: 4px 20px;
-    font-size: 20px;
-    height: 35px;
-    border-radius: 10px;
-    outline: none;
-    border: none;
-    /* background-color: rgb(255, 98, 0); */
-    background-image: linear-gradient(300deg, rgb(30, 255, 0), rgb(229, 226, 239));
-    transition: all 0.5s;
-    color: rgb(255, 0, 187);
+  padding: 4px 20px;
+  font-size: 20px;
 
-
+  height: 35px;
+  border-radius: 10px;
+  outline: none;
+  color: white;
+  border: none;
+  background: rgba(241, 12, 237, 0.728);
+ cursor: pointer;
 }
 
 button:hover {
-    color: red;
-    background-color: white;
+    background: blue;
+   
+
 }
 
-
 .smbox {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin-top: 10px;
-    padding: 10px;
-    text-align: center;
-    border: 1px solid red;
-    border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 10px;
 }
 
 p {
-    color: rgb(6, 245, 26);
-    text-transform: capitalize;
-    font-size: 25px;
+  color: rgb(6, 245, 26);
+  text-transform: capitalize;
+  font-size: 25px;
+  text-align: center;
 }
 
 span {
-    font-size: 25px;
-    /* margin-right: 5px; */
-
+  font-size: 25px;
+  /* margin-right: 5px; */
 }
 
 input[type="radio"] {
-    accent-color: red;
-
+  accent-color: red;
+  text-transform: capitalize;
+}
+label{
+    text-transform: capitalize !important;
 }
 
 input {
-    height: 30px;
+  height: 30px;
 }
 
 input::placeholder {
-    text-transform: capitalize;
-    color: black;
-    padding-left: 10px;
+  text-transform: capitalize;
+  color: black;
+  padding-left: 10px;
 }
 
 input {
-    font-size: 20px;
-    caret-color: red;
+  font-size: 20px;
+  caret-color: red;
 }
 
 h6 {
-    font-size: 16px;
-    color: rgb(4, 235, 35);
-    font-weight: normal;
-    display: none;
-    margin-top: 5px;
-
+  font-size: 16px;
+  color: rgb(4, 235, 35);
+  font-weight: normal;
+  display: none;
+  margin-top: 5px;
 }
 
 #new {
-    padding: 20px;
-    width: 100%;
-    height: auto;
-    display: none;
-    padding: 0px 300px;
-
+  padding: 20px;
+  height: auto;
+  display: none;
+  /* padding: 0px 300px; */
 }
 
-
 #data {
-    padding: 20px;
-    width: 100%;
-    padding: 0 400px;
-    position: relative;
-    display: none;
-    margin-top: 30px;
-    border-radius: 50px;
-
+  padding: 20px;
+background-color: rgba(40, 39, 39, 0.297);
+  box-shadow: 0 0 10px rgb(222, 219, 219);
+  position: relative;
+  display: none;
+  margin-top: 30px;
+  border-radius: 50px;
+}
+#data p{
+    text-align: start !important;
 }
 
 span {
-    color: white;
+  color: white;
 }
 
 p {
-    color: white;
+  color: white;
 }
 
 #head1,
 #head2 {
-    color: white;
-    text-transform: capitalize;
+  color: white;
+  text-transform: capitalize;
 }
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .main_box {
+    width: auto;
+    height: auto;
+  }
 
-    .main_box {
-        width: auto;
-        height: auto;
-    }
+  .main {
+    flex-direction: column;
+    height: auto;
+    width: auto;
+  }
 
+  #left11 {
+    width: auto;
+    height: auto;
+  }
 
-    .main {
-        flex-direction: column;
-        height: auto;
-        width: auto;
+  #right1 {
+    width: auto;
+    height: auto;
+    padding: 5px;
+  }
 
+  select {
+    padding: 5px;
+  }
 
+  #right1 .smbox {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
 
+  .smbox input {
+    margin-bottom: 5px;
+  }
 
-    }
+  .left_div {
+    flex-direction: column !important;
+    display: flex;
+    width: 300px !important;
+    margin-bottom: 5px;
+  }
 
-    #left11 {
-        width: auto;
-        height: auto;
+  .smbox button {
+    width: 100px;
+    margin-bottom: 5px;
+  }
 
+  input {
+    height: 30px;
+  }
 
-    }
+  select {
+    margin-bottom: 5px;
+  }
 
-    #right1 {
-        width: auto;
-        height: auto;
-        padding: 5px;
+  #checkspan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* display: flex; */
+    width: auto;
+    text-align: center;
+    overflow: hidden;
+    /* border: 1px solid ; */
+  }
 
-    }
+  .head {
+    margin-top: 50px;
+  }
 
+  #checkspan span {
+    font-size: 16px;
+  }
 
+  #checkspan input {
+    width: 15px;
+  }
 
+  #new {
+    padding: 5px;
+    width: auto;
+  }
 
-    select {
-        width: 150px;
-        padding: 5px;
-    }
+  #new .smbox {
+    width: auto;
+  }
 
-    #right1 .smbox {
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-between;
-        flex-wrap: wrap;
-    }
+  #data {
+    padding: 0;
+  }
 
-    .smbox input {
-        width: 150px;
-        margin-bottom: 5px;
-    }
-
-    .left_div {
-        flex-direction: column !important;
-        display: flex;
-        width: 300px !important;
-        margin-bottom: 5px;
-    }
-
-
-    .smbox button {
-        width: 80px;
-        margin-bottom: 5px;
-    }
-
-    input {
-        height: 30px;
-    }
-
-    select {
-        margin-bottom: 5px;
-    }
-
-    #checkspan {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        /* display: flex; */
-        width: auto;
-        text-align: center;
-        overflow: hidden;
-        /* border: 1px solid ; */
-    }
-
-    .head{
-        margin-top: 50px;
-    }
-
-    #checkspan span {
-        font-size: 16px;
-    }
-
-    #checkspan input {
-        width: 15px;
-    }
-
-    #new {
-        padding: 5px;
-        width: auto;
-    }
-
-    #new .smbox {
-        width: auto;
-    }
-
-    #data {
-        padding: 0;
-    }
-
-    #data .smbox {
-        display: flex !important;
-        text-align: justify;
-        flex-wrap: nowrap;
-    }
-    #new .smbox {
-        display: flex !important;
-        text-align: justify;
-        flex-wrap: nowrap;
-    }
-
-
+  #data .smbox {
+    display: flex !important;
+    text-align: justify;
+    flex-wrap: nowrap;
+  }
+  #new .smbox {
+    display: flex !important;
+    text-align: justify;
+    flex-wrap: nowrap;
+  }
 }
